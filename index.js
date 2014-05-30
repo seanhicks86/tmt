@@ -12,7 +12,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 app.use(express.bodyParser()); // <-- add
 
-var mongoHost = 'localHost';
+var mongoHost = 'ec2-54-86-37-19.compute-1.amazonaws.com';
 var mongoPort = 27017;
 var fileDriver;  //<--
 var collectionDriver;
